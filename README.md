@@ -49,7 +49,7 @@ src/
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/conversor-moedas.git
+   git clone https://github.com/lucaslowhan/desafio-conversor-moedas.git
     ```
 2. Compile o projeto:
     ```bash
