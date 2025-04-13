@@ -12,7 +12,7 @@ public class ConversorService {
     public String getKey() {
         return key;
     }
-    Conversion conversorService(String currencyA, String currencyB , double value){
+    public Conversion conversorService(String currencyA, String currencyB , double value){
         URI adress = URI.create("https://v6.exchangerate-api.com/v6/" + getKey()+ "/pair/"+ currencyA + "/" + currencyB + "/" +value);
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(adress)
